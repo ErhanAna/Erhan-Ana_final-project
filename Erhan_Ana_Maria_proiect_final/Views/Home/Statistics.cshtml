@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Erhan_Ana_Maria_proiect_final.Models.RecordStoreViewModels.OrderGroup>
+@{
+    ViewData["Title"] = "Ordered Albums Statistics";
+}
+<h2>Ordered Albums Statistics</h2>
+<table>
+    <tr>
+        <th>
+            Order Date
+        </th>
+        <th> </th>
+        <th>
+            Ordered Albums
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderDate)
+            </td>
+            <td>
+                @item.AlbumCount
+            </td>
+        </tr>
+    }
+</table>

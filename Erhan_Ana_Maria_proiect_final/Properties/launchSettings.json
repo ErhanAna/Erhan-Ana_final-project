@@ -1,0 +1,25 @@
+{
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Profile 1": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\aerhan\\Desktop\\MASTER\\medii-programare-avansate\\Erhan_Ana_Maria_proiect_final\\Erhan_Ana_Maria_proiect_final",
+      "launchBrowser": true,
+      "nativeDebugging": true
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:5538",
+      "sslPort": 44306
+    }
+  }
+}
